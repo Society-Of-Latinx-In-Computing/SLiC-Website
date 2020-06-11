@@ -8,7 +8,7 @@ jQuery(document).ready(function($) {
       emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
 
     f.children('input').each(function() { // run all inputs
-
+      
       var i = $(this); // current input
       var rule = i.attr('data-rule');
 
@@ -21,7 +21,7 @@ jQuery(document).ready(function($) {
         } else {
           rule = rule.substr(pos + 1, rule.length);
         }
-
+        
         switch (rule) {
           case 'required':
             if (i.val() === '') {
@@ -89,17 +89,27 @@ jQuery(document).ready(function($) {
       }
     });
     if (ferror) return false;
-    else var str = $(this).serialize();
-    var action = $(this).attr('action');
-    if( ! action ) {
-      action = 'contactform/contactform.php';
-    }
+    else {
+     var str = $(this).serialize();
+
+     let formFields = document.querySelectorAll('.form-control');
+
+     let formFieldsObject = {
+       name: formFields[0].value,
+       email: formFields[1].value,
+       subject: formFields[2].value,
+       message: formFields[3].value,
+       apiKey: 'c1b80ba5-c532-440c-aa79-5ebe15f1f5a4'
+     }
+
+     var str = formFieldsObject;
+  }
+    
     $.ajax({
       type: "POST",
-      url: action,
+      url: '/sendEmail',
       data: str,
       success: function(msg) {
-        // alert(msg);
         if (msg == 'OK') {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
@@ -112,6 +122,7 @@ jQuery(document).ready(function($) {
 
       }
     });
+    
     return false;
   });
 
