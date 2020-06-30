@@ -90,25 +90,21 @@ jQuery(document).ready(function($) {
     });
     if (ferror) return false;
     else {
-     var str = $(this).serialize();
-
      let formFields = document.querySelectorAll('.form-control');
 
-     let formFieldsObject = {
+     var formFieldsObject = {
        name: formFields[0].value,
        email: formFields[1].value,
        subject: formFields[2].value,
        message: formFields[3].value,
        apiKey: 'c1b80ba5-c532-440c-aa79-5ebe15f1f5a4'
      }
-
-     var str = formFieldsObject;
   }
     
     $.ajax({
       type: "POST",
       url: '/sendEmail',
-      data: str,
+      data: formFieldsObject,
       success: function(msg) {
         if (msg == 'OK') {
           $("#sendmessage").addClass("show");
