@@ -89,9 +89,11 @@ jQuery(document).ready(function($) {
       }
     });
     if (ferror) return false;
+
+    // Grab all input and text area elements and builds their value into an object to send to server to send email
     else {
      let formFields = document.querySelectorAll('.form-control');
-
+        
      var formFieldsObject = {
        name: formFields[0].value,
        email: formFields[1].value,
@@ -100,7 +102,7 @@ jQuery(document).ready(function($) {
        apiKey: 'c1b80ba5-c532-440c-aa79-5ebe15f1f5a4'
      }
   }
-    
+  
     $.ajax({
       type: "POST",
       url: '/sendEmail',

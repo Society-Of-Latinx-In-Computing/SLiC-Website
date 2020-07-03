@@ -1581,7 +1581,16 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Additional CSS
+# Additional CSS Not From Template
 --------------------------------------------------------------*/
  
 
+/* Height Of E-Board Member Picture In Team Section Fix 
+
+ Overrides The height: auto coming from .img-fluid
+
+ Didn't apply class to the second row e-board member pics because the bottom row divs are smaller than the top ones
+*/
+.eBoardMemberPic {
+    height: 80% !important;
+}
