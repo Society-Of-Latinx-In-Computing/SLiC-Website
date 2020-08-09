@@ -1,7 +1,5 @@
 const express = require('express');
 
-const contactFormEmailManager = require('../models/sendEmail');
-
 const contactFormQuestion = require('../models/contactFormQuestion');
 
 require('dotenv').config({path: '../.env'});
@@ -17,7 +15,7 @@ router.post('/', (req, res) => {
     let question = new contactFormQuestion(req.body.name, req.body.email, req.body.subject, req.body.message);
     
     try {
-        contactFormEmailManager.sendEmail(question);
+        question.sendEmail();
     }
     
     catch {
