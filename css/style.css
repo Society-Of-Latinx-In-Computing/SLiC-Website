@@ -5,13 +5,27 @@
   License: https://bootstrapmade.com/license/
 */
 
+
+
+
+/*
+COLORS
+
+darkpurple: #11002d
+light purple: #140035
+medium purple: #280e52
+
+
+
+*/
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 
 body {
-    background: #fff;
-    color: #444;
+    background: #140035;
+    color: #fff;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -51,7 +65,7 @@ h6 {
     position: fixed;
     display: none;
     background: #1bb1dc;
-    color: #fff;
+    color: #140035;
     width: 44px;
     height: 44px;
     text-align: center;
@@ -66,7 +80,7 @@ h6 {
 
 .back-to-top i {
     padding-top: 12px;
-    color: #fff;
+    color: #140035;
 }
 
 /* Prelaoder */
@@ -79,7 +93,7 @@ h6 {
     bottom: 0;
     z-index: 9999;
     overflow: hidden;
-    background: #fff;
+    background: #140035;
 }
 
 #preloader:before {
@@ -171,7 +185,7 @@ h6 {
 #header.header-pages {
     height: 70px;
     padding: 15px 0;
-    background-color: #fff;
+    background-color: #140035;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
 }
 
@@ -192,7 +206,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-    color: #413e66;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -206,6 +220,14 @@ h6 {
     margin-top: 60px;
 }
 
+
+/*darkpurple: #11002d
+light purple: #140035
+medium purple: #280e52
+
+
+
+*/
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
@@ -214,12 +236,12 @@ h6 {
     width: 100%;
     height: 100vh;
     position: relative;
-    background: #f5f8fd url("../img/intro-bg.jpg") center top no-repeat;
+    background: #11002d url("../img/backgrounds/140035.jpeg") center top no-repeat;
     background-size: cover;
 }
 
 #intro .intro-info h2 {
-    color: #413e66;
+    color: #fff;
     margin-bottom: 40px;
     font-size: 48px;
     font-weight: 700;
@@ -240,9 +262,9 @@ h6 {
     padding: 10px 32px;
     border-radius: 4px;
     transition: 0.5s;
-    color: #fff;
+    color: #140035;
     background: #1bb1dc;
-    color: #fff;
+    color: #140035;
 }
 
 #intro .intro-info .btn-get-started:hover,
@@ -277,7 +299,7 @@ h6 {
 .main-nav a {
     display: block;
     position: relative;
-    color: #413e66;
+    color: #fff;
     padding: 10px 15px;
     transition: 0.3s;
     font-size: 14px;
@@ -302,7 +324,7 @@ h6 {
     opacity: 0;
     visibility: hidden;
     padding: 10px 0;
-    background: #fff;
+    background: #140035;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: ease all 0.3s;
 }
@@ -383,7 +405,7 @@ h6 {
 .mobile-nav a {
     display: block;
     position: relative;
-    color: #fff;
+    color: #140035;
     padding: 10px 20px;
     font-weight: 500;
 }
@@ -461,7 +483,7 @@ h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-    color: #fff;
+    color: #140035;
 }
 
 /*--------------------------------------------------------------
@@ -473,7 +495,7 @@ h6 {
 
 .section-header h3 {
     font-size: 36px;
-    color: #413e66;
+    color: #fff;
     text-align: center;
     font-weight: 700;
     position: relative;
@@ -493,7 +515,7 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-    background: #f5f8fd;
+    background: #11002d;
 }
 
 /* About Us Section
@@ -508,7 +530,7 @@ h6 {
 }
 
 #about .about-content h2 {
-    color: #413e66;
+    color: #fff;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
 }
@@ -542,7 +564,7 @@ h6 {
 
 #about .about-img img {
     width: 100%;
-    border: 8px solid #fff;
+    border: 8px solid #140035;
     transition: 0.5s;
 }
 
@@ -560,7 +582,7 @@ h6 {
     height: 92%;
     z-index: -1;
     content: "";
-    background-color: #ebf1fa;
+    background-color: #280e52;
     transition: 0.5s;
 }
 
@@ -572,7 +594,7 @@ h6 {
     height: 92%;
     z-index: -1;
     content: "";
-    background-color: #ebf1fa;
+    background-color: #280e52;
     transition: 0.5s;
 }
 
@@ -589,7 +611,7 @@ h6 {
     overflow: hidden;
     border-radius: 10px;
     margin: 0 10px 40px 10px;
-    background: #fff;
+    background: #140035;
     box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
     transition: all 0.3s ease-in-out;
     text-align: center;
@@ -622,7 +644,7 @@ h6 {
 }
 
 #services .title a {
-    color: #111;
+    color: #fff;
 }
 
 #services .box:hover .title a {
@@ -658,7 +680,7 @@ h6 {
     font-size: 24px;
     font-weight: 600;
     margin-left: 56px;
-    color: #413e66;
+    color: #fff;
     margin-bottom: 5px;
 }
 
@@ -698,13 +720,13 @@ h6 {
 }
 
 #call-to-action .cta-title {
-    color: #fff;
+    color: #140035;
     font-size: 28px;
     font-weight: 700;
 }
 
 #call-to-action .cta-text {
-    color: #fff;
+    color: #140035;
 }
 
 #call-to-action .cta-btn {
@@ -717,8 +739,8 @@ h6 {
     border-radius: 3px;
     transition: 0.5s;
     margin: 10px;
-    border: 3px solid #fff;
-    color: #fff;
+    border: 3px solid #140035;
+    color: #140035;
 }
 
 #call-to-action .cta-btn:hover {
@@ -759,7 +781,7 @@ h6 {
     padding: 6px 10px;
     font-size: 16px;
     line-height: 20px;
-    color: #413e66;
+    color: #fff;
     margin-bottom: 5px;
     transition: all 0.3s ease-in-out;
 }
@@ -827,7 +849,7 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a {
-    color: #fff;
+    color: #140035;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
@@ -859,7 +881,7 @@ h6 {
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details i {
     padding-top: 6px;
     font-size: 22px;
-    color: #fff;
+    color: #140035;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
@@ -879,7 +901,7 @@ h6 {
     .portfolio-info
     .link-details:hover
     i {
-    color: #fff;
+    color: #140035;
 }
 
 #portfolio .portfolio-item .portfolio-wrap:hover {
@@ -904,7 +926,7 @@ h6 {
 #testimonials .testimonial-item .testimonial-img {
     width: 120px;
     border-radius: 50%;
-    border: 4px solid #fff;
+    border: 4px solid #140035;
     float: left;
 }
 
@@ -912,7 +934,7 @@ h6 {
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0 5px 0;
-    color: #111;
+    color: #fff;
     margin-left: 140px;
 }
 
@@ -1123,7 +1145,7 @@ h6 {
 #pricing .card .list-group-item {
     border: 0px;
     padding: 6px;
-    color: #413e66;
+    color: #fff;
     font-weight: 300;
 }
 
@@ -1162,7 +1184,7 @@ h6 {
     border-radius: 3px;
     display: inline-block;
     background: #1bb1dc;
-    color: #fff;
+    color: #140035;
 }
 
 #pricing .card .btn:hover {
@@ -1213,7 +1235,7 @@ h6 {
 }
 
 #faq #faq-list a.collapsed {
-    color: #000;
+    color: #fff;
 }
 
 /*
@@ -1229,12 +1251,12 @@ h6 {
 #footer {
     padding: 0 0 30px 0;
     font-size: 14px;
-    background: #fff;
+    background: #140035;
 }
 
 #footer .footer-top {
     padding: 60px 0 30px 0;
-    background: #f5f8fd;
+    background: #11002d;
 }
 
 #footer .footer-top .footer-info {
@@ -1247,7 +1269,7 @@ h6 {
     padding: 2px 0 2px 0;
     line-height: 1;
     font-family: "Montserrat", sans-serif;
-    color: #413e66;
+    color: #fff;
     font-weight: 400;
     letter-spacing: 3px;
     /* text-transform: uppercase; */
@@ -1265,7 +1287,7 @@ h6 {
     font-size: 18px;
     display: inline-block;
     background: #1bb1dc;
-    color: #fff;
+    color: #140035;
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
@@ -1278,13 +1300,13 @@ h6 {
 
 #footer .footer-top .social-links a:hover {
     background: #0a98c0;
-    color: #fff;
+    color: #140035;
 }
 
 #footer .footer-top h4 {
     font-size: 14px;
     font-weight: bold;
-    color: #413e66;
+    color: #fff;
     text-transform: uppercase;
     position: relative;
     padding-bottom: 10px;
@@ -1341,7 +1363,7 @@ h6 {
     width: 35%;
     padding: 6px 0;
     text-align: center;
-    color: #fff;
+    color: #140035;
     transition: 0.3s;
     cursor: pointer;
 }
@@ -1355,7 +1377,7 @@ h6 {
 }
 
 #footer .footer-top .form #sendmessage {
-    color: #fff;
+    color: #140035;
     background: #1bb1dc;
     display: none;
     text-align: center;
@@ -1365,7 +1387,7 @@ h6 {
 }
 
 #footer .footer-top .form #errormessage {
-    color: #fff;
+    color: #140035;
     display: none;
     background: red;
     text-align: center;
@@ -1389,7 +1411,7 @@ h6 {
 }
 
 #footer .footer-top .form label {
-    color: #413e66;
+    color: #fff;
     font-weight: 500;
 }
 
@@ -1426,7 +1448,7 @@ h6 {
     border: 0;
     border-radius: 3px;
     padding: 8px 30px;
-    color: #fff;
+    color: #140035;
     transition: 0.3s;
 }
 
@@ -1583,7 +1605,7 @@ h6 {
 /*--------------------------------------------------------------
 # Additional CSS Not From Template
 --------------------------------------------------------------*/
- 
+
 
 /* Overrides The height: auto coming from .img-fluid, all the images were different sizes */
 .img-fluid-fix {

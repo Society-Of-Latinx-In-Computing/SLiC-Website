@@ -1,1 +1,1 @@
-http://students.cs.uri.edu/~slic/
+http://cs.uri.edu/~slic/
