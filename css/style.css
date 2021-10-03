@@ -407,8 +407,15 @@ medium purple (alt foreground): #280e52
     left: -260px;
     width: 260px;
     padding-top: 18px;
-    <!--(lightmode) rgba(40, 38, 70, 0.8) -->
+    /*
+    light mode
+    lightmode)*/
+    background: rgba(40, 38, 70, 0.8);
+
+    /*
+    purple mode
     background: rgba(20, 0, 53, 0.8);
+    */
     transition: 0.4s;
 }
 
